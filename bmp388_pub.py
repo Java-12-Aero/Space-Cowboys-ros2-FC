@@ -1,9 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-import time
 import board
-import os
 import adafruit_bmp3xx
 class BMP388_Publisher(Node):
     def __init__(self):
